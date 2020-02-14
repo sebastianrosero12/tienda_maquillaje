@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
+    return view('home');
+});
+
+
+Route::get('/prueba', function () {
     return view('welcome');
 });
 
@@ -24,6 +29,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 //     return view('auth.login');
 // });
 
-Route::get('/logout', function () {
-    return view('logout');
-});
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout');

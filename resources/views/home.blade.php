@@ -1,8 +1,4 @@
-{{-- @extends ('layouts.admin')
-@section ('contenido')
-    <h1>indexxxxx</h1>
-@stop
- --}}
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
