@@ -43,7 +43,7 @@
          <div class="header">
             <div class="container-fluid">
                <div class="row">
-                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col logo_section">
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">

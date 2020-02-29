@@ -1,5 +1,5 @@
 <div class="sidebar shadow">
-    <div class="section-top">
+    {{-- <div class="section-top">
         <div class="logo">
             <img src="{{asset('images/logo.png')}}" class="img-fluid">
         </div>
@@ -11,7 +11,7 @@
             </div>
             <div class="email">{{Auth::user()->email}}</div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="main">
         <ul>
