@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="paneladmin shadow">
             <div class="headeradmin">
-                <h2 class="titulo">Prueba</h2>
+                <h2 class="titulo"><i class="fas fa-users-cog"></i>Prueba</h2>
             </div>
             <div class="inside">
                 inside
