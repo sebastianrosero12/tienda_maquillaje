@@ -19,7 +19,7 @@
                 <a href="{{ url('/admin') }}"><i class="fas fa-home"></i>Tablero</a>
             </li>
             <li>
-                <a href="{{ url('/admin/products') }}"><i class="fas fa-box-open"></i>Productos</a>
+                <a href="{{ url('/admin/productos') }}"><i class="fas fa-box-open"></i>Productos</a>
             </li>
             <li>
                 <a href="{{ url('/admin') }}"><i class="fas fa-users-cog"></i>Usuarios</a>

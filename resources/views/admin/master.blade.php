@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Tienda - @yield('title')</title>
+      <title>@yield('title')Tienda de Maquillaje</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -67,10 +67,10 @@
                               <a href="{{ url('/admin') }}" class="nav-link"><i class="fas fa-home"></i> Admin</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link"  href="{{ url('/admin/products') }}"><i class="fas fa-box-open"></i> Productos</a>
+                              <a class="nav-link"  href="{{ url('/admin/productos') }}"><i class="fas fa-box-open"></i> Productos</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="{{ url('/admin') }}"><i class="fas fa-users-cog"></i> Usuarios</a>
+                              <a class="nav-link" href="{{ url('/admin/users') }}"><i class="fas fa-users-cog"></i> Usuarios</a>
                            </li>
                            <li class="nav-item" >
                              <a class="nav-link" href="{{url('/logout')}}">
@@ -119,7 +119,7 @@
                   <nav aria-label="breadcrumb shadow">
                      <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                           <a href="{{ url('/admin')}}" data-toggle="tooltip"  data-placement="down" title="Salir"><i class="fas fa-users-cog"></i> Administrar</a>
+                           <a href="{{ url('/admin')}}" data-toggle="tooltip"  data-placement="down" title="Salir"><i class="fas fa-home"></i> Administrar</a>
                         </li>
                         @section('breadcrumb')
                         @show

@@ -1,10 +1,10 @@
 @extends('admin.master')
 
-@section('title','Usuarios')
+@section('Usuarios - ' , 'title')
 
 @section('breadcrumb')
     <li class="breadcrumb-item">
-    <a href="{{url('/admin/users')}}">Usuarios</a>
+    <a href="{{url('/admin/users')}}"><i class="fas fa-users-cog"></i>Usuarios</a>
     </li>
 @endsection
 
